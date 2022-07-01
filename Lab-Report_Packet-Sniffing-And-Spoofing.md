@@ -13,13 +13,13 @@ One of the reasons we need root privilege for this is that we need to compile BP
 Write BPF rules for capturing packets:
 
 • Capture only the ICMP packet
-	"icmp"
+-	"icmp"
 
 • Capture any TCP packet that comes from a particular IP and with a destination port number 23.
-	"tcp dst port 23 and ip src host <ip>"
+-	"tcp dst port 23 and ip src host <ip>"
 
 • Capture packets comes from or to go to a particular subnet. You can pick any subnet, such as 128.230.0.0/16; you should not pick the subnet that your VM is attached to.
-	"net 203.107"
+-	"net 203.107"
 
 ## Task 1.2 Spoofing ICMP Packets
 
