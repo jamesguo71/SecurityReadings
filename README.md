@@ -1,4 +1,4 @@
-# Network and System Security Reading Course Write-ups
+# Network and System Security Lab Write-ups
 
 ## Fei Guo, Summer 2022
 
